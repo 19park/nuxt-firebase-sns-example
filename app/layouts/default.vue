@@ -14,10 +14,7 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      wrapperStyles: {
-        backgroundImage: `url('makki.jpg')`,
-        backgroundSize: 'cover'
-      }
+
     }
   },
   components: {
@@ -43,6 +40,8 @@ export default {
 
 .wrapper-loaded {
   padding-top: 0;
-  background-color: #fafafa;;
+  background-color: #fafafa;
+  background-image: url('~/makki.jpg');
+  background-size: 'cover';
 }
 </style>
