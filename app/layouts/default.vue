@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="wrapper wrapper-loading" v-if="!isLoaded"><TheLoading /></div>
-    <div class="wrapper wrapper-loaded" v-show="isLoaded"><nuxt /></div>
-    <TheForkCorners />
+    <div class="wrapper wrapper-loaded" v-show="isLoaded" :style="wrapperStyles"><nuxt /></div>
+    <!--<TheForkCorners />-->
   </div>
 </template>
 
@@ -12,6 +12,14 @@ import TheForkCorners from '~/components/TheForkCorners.vue'
 import { mapGetters } from 'vuex'
 
 export default {
+  data() {
+    return {
+      wrapperStyles: {
+        backgroundImage: `url('makki.jpg')`,
+        backgroundSize: 'cover'
+      }
+    }
+  },
   components: {
     TheLoading,
     TheForkCorners
@@ -34,7 +42,7 @@ export default {
 }
 
 .wrapper-loaded {
-  background: #fafafa;
   padding-top: 0;
+  background-color: #fafafa;;
 }
 </style>

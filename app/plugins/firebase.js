@@ -3,12 +3,12 @@ import 'firebase/firestore'
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: process.env.APIKEY,
-    authDomain: process.env.AUTHDOMAIN,
-    databaseURL: process.env.DATABASEURL,
-    projectId: process.env.PROJECTID,
-    storageBucket: process.env.STORAGEBUCKET,
-    messagingSenderId: process.env.MESSAGINGSENDERID
+    apiKey: "AIzaSyBS7akFZnh8QFlSbxzaumf2jrybPF_pjko",
+    authDomain: "makki-b4939.firebaseapp.com",
+    databaseURL: "https://makki-b4939.firebaseio.com",
+    projectId: "makki-b4939",
+    storageBucket: "makki-b4939.appspot.com",
+    messagingSenderId: "337225498650"
   })
 }
 

@@ -29,12 +29,12 @@ export default {
   ** Build configuration
   */
   env: {
-    APIKEY: process.env.APIKEY,
-    AUTHDOMAIN: process.env.AUTHDOMAIN,
-    DATABASEURL: process.env.DATABASEURL,
-    PROJECTID: process.env.PROJECTID,
-    STORAGEBUCKET: process.env.STORAGEBUCKET,
-    MESSAGINGSENDERID: process.env.MESSAGINGSENDERID
+    APIKEY: "AIzaSyBS7akFZnh8QFlSbxzaumf2jrybPF_pjko",
+    AUTHDOMAIN: "makki-b4939.firebaseapp.com",
+    DATABASEURL: "https://makki-b4939.firebaseio.com",
+    PROJECTID: "makki-b4939",
+    STORAGEBUCKET: "makki-b4939.appspot.com",
+    MESSAGINGSENDERID: "337225498650"
   },
   build: {
     publicPath: '/assets/',

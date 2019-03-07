@@ -5,7 +5,7 @@
         class="column is-three-fifths is-offset-one-fifth"
         v-if="post && post.user"
       >
-        <h1 class="title text-is-centered">{{ post.user.name }}さんの投稿</h1>
+        <h1 class="title text-is-centered">{{ post.user.name }} ㅋㅋ</h1>
         <div class="card">
           <div class="card-content">
             <div class="media">
@@ -23,7 +23,7 @@
           </div>
         </div>
         <p class="is-text-centered" style="margin-top: 16px;">
-          <nuxt-link to="/"> Back to Timeline </nuxt-link>
+          <nuxt-link to="/"> 메인으로 </nuxt-link>
         </p>
       </div>
     </div>
@@ -46,7 +46,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.post.user.name}さんの投稿 - 'Nuxt Firebase SNS Mock`,
+      title: `${this.post.user.name} - 낚시군단`,
       meta: [
         { hid: 'description', name: 'description', content: this.post.body }
       ],

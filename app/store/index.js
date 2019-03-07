@@ -1,5 +1,6 @@
 import firebase from '~/plugins/firebase'
 import { firebaseMutations, firebaseAction } from 'vuexfire'
+
 const firestore = firebase.firestore()
 
 if (process.browser) {
@@ -95,3 +96,4 @@ export const actions = {
     commit('setIsLoaded', true)
   }
 }
+export const strict = false

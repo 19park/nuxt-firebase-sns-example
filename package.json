@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-firebase-example",
+  "name": "makki-world",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "마끼월드",
   "author": "HANATANI Takuma <mail@potato4d.me>",
   "private": true,
   "scripts": {

@@ -1,16 +1,17 @@
 <template lang="html">
   <div class="field-wrapper">
+    <h2 class="title">마끼월드에 오신것을 환영합니다..</h2>
     <form class="field is-grouped" @submit.prevent="doPost">
       <p class="control is-expanded">
         <input
           class="input"
           type="text"
-          placeholder="What's happening?"
+          placeholder="마끼에대해 한마디하셈ㅋ"
           v-model="body"
         />
       </p>
       <p class="control">
-        <button class="button is-primary" :disabled="!this.body">Post</button>
+        <button class="button is-danger" :disabled="!this.body">등록</button>
       </p>
     </form>
   </div>
@@ -46,6 +47,12 @@ export default {
 </script>
 
 <style scoped>
+  .title {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 0 !important;
+  }
+
 .field-wrapper {
   position: sticky;
   top: 0;

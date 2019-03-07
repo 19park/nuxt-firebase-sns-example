@@ -3,7 +3,8 @@
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style scoped>
@@ -39,7 +40,9 @@ export default {}
   bottom: 0;
   margin: auto;
 
-  border: solid 3px #00d1b2;
+  border: solid 3px #000;
+  background-image: url('~/load.png');
+  background-size: 140px;
   border-right-color: transparent;
   border-left-color: transparent;
   border-radius: 50%;
